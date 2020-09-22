@@ -1,4 +1,4 @@
-function carregar(){
+function carregar () {
     let msg = document.querySelector('div#mensagem');
     let img = document.getElementById('img');
     let photo = document.getElementById('foto');
