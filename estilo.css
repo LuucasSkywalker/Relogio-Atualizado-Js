@@ -1,0 +1,43 @@
+body{
+background: rgb(116, 116, 129);
+font: normal 16pt verdana;
+}
+
+header{
+text-align: center;
+font-style: italic ;
+}
+
+section{
+background: rgb(36, 33, 33);
+border-radius: 10px;
+padding: 15px;
+width: 490px;
+margin: auto;
+box-shadow: 5px 5px 10px rgb(34, 32, 32);
+}
+
+div {
+color: white;      
+text-align: center;
+border-radius: 4px;
+padding: 9px; 
+margin: 10px;
+box-shadow: 5px 5px 10px rgb(34, 32, 32);
+}
+div#datadehoje{
+color: black;    
+background: #d7d7e6;
+border-radius: 4px;
+padding: 5px;
+box-shadow: 5px 5px 10px rgb(34, 32, 32);
+    
+}
+
+footer{   
+color: rgb(5, 4, 4);
+text-align:center ;
+font-style: italic;
+padding: 5px;
+text-shadow: 5px 5px 5px rgb(73, 71, 71) ;
+}
