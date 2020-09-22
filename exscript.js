@@ -9,7 +9,7 @@ function carregar(){
     
     
     
-    setInterval (function(){
+    setInterval (()=> {
         
         let timetoday = new Date();
         let time = timetoday.getHours();
