@@ -7,17 +7,20 @@ function load () {
     let dateNow = new Date();
     let date = dateNow.getDay();
 
-    let timeToday = new Date();
-    let time = timeToday.getHours();
-
-    let minutesToday = new Date();
-    let minutes = minutesToday.getMinutes();
+    
 
   
 
     
 
     setInterval(()=>{
+      
+      let timeToday = new Date();
+      let time = timeToday.getHours();
+
+      let minutesToday = new Date();
+      let minutes = minutesToday.getMinutes();
+
       let secondsToday = new Date();
       let seconds = secondsToday.getSeconds();
      
@@ -25,20 +28,22 @@ function load () {
 
     },1000)
      
+    let timeIFELSE = new Date();
+    let timeIfelse = timeIFELSE.getUTCHours();
      
-    if (time > 7 && time <= 12){
+    if (timeIfelse > 7 && timeIfelse <= 12){
       img.src = 'dia.png'
       msg.style.color= 'wheat'
       photo.style.background = 'wheat'
       document.body.style.background = 'wheat'
  
-  } else if (time >=13 && time <= 18 ){
+  } else if (timeIfelse >=13 && timeIfelse <= 18 ){
       img.src = 'tarde.png'
       msg.style.color= 'orange'
       photo.style.background = 'orange'
       document.body.style.background = 'orange'
     
-  } else if (time > 18 && time < 23){
+  } else if (timeIfelse > 18 && timeIfelse < 23){
       img.src = 'noite.png'
       msg.style.color= 'cornflowerblue'
       photo.style.background = 'cornflowerblue'
