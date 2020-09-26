@@ -4,7 +4,7 @@ function load () {
     let photo = document.getElementById('photograph');
 
     /*
-    * Abaixo foi gerada uma variavel dateToday/date para div#dateforToday dentro da Section
+    * Abaixo foi gerada uma varíavel dateToday/date para div#dateforToday dentro da Section
     * fora do corpo da mensagem aonde aparece a hora ...
     * está dentro do corpo HTML section .
     */ 
@@ -83,7 +83,7 @@ function load () {
               dateToday.innerHTML = '<strong>Sexta-feira</strong>';  
             break;
             case 6:
-              dateToday.innerHTML = '<strong>Sabado</strong>' ; 
+              dateToday.innerHTML = '<strong>Sábado</strong>' ; 
             default:
             break;        
        }; 
